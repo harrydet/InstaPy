@@ -5,7 +5,7 @@ from instapy import InstaPy
 insta_username = 'dankestt_of_memes'
 insta_password = 'bullseye10'
 
-BASE_FOLLOWS = 0.51
+BASE_FOLLOWS = 0.512
 BASE_LIKES = 0.46
 
 
