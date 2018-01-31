@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ec2-34-240-87-49.eu-west-1.compute.amazonaws.com",
+  "port": "22",
+  "target": "/home/InstaPy",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ubuntu",
+  "keyfile": "C:\\Users\\Harry\\Desktop\\instabot_key.ppk",
+  "watch": []
+}
