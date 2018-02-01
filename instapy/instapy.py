@@ -59,7 +59,7 @@ class InstaPy:
                  nogui=False,
                  selenium_local_session=True,
                  use_firefox=False,
-                 page_delay=25,
+                 page_delay=7,
                  show_logs=True,
                  headless_browser=False,
                  proxy_address=None,
