@@ -5,7 +5,7 @@ from instapy import InstaPy
 insta_username = 'dankestt_of_memes'
 insta_password = 'bullseye10'
 
-BASE_FOLLOWS = 0.51
+BASE_FOLLOWS = 0.81
 BASE_LIKES = 0.46
 
 
@@ -18,9 +18,9 @@ try:
 		      bypass_suspicious_attempt=True)
     session.login()
     fph = 120
-    #session.set_sleep_reduce(100*fph/(BASE_FOLLOWS*60))
+    session.set_sleep_reduce(100*fph/(BASE_FOLLOWS*60))
     # actions
-    session.interact_user_commenters2(['whitepeoplehumor', 'Shitheadsteve', 'friendofbae'], amount_of_follows=30)
+    session.interact_user_commenters2(['fuckjerry', 'thetastelessgentlemen', 'daquan'], amount_of_follows=50)
 
 
 finally:

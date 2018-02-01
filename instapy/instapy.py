@@ -59,7 +59,7 @@ class InstaPy:
                  nogui=False,
                  selenium_local_session=True,
                  use_firefox=False,
-                 page_delay=7,
+                 page_delay=10,
                  show_logs=True,
                  headless_browser=False,
                  proxy_address=None,
@@ -1110,11 +1110,11 @@ class InstaPy:
                 self.logger.info("--> Given amount not fullfilled, image pool "
                                  "reached its end\n")
 
-        self.logger.info('Followed: {}'.format(followed))
-        self.logger.info('Liked: {}'.format(total_liked_img))
-        self.logger.info('Already Liked: {}'.format(already_liked))
-        self.logger.info('Inappropriate: {}'.format(inap_img))
-        self.logger.info('Commented: {}'.format(commented))
+        #self.logger.info('Followed: {}'.format(followed))
+        #self.logger.info('Liked: {}'.format(total_liked_img))
+        #self.logger.info('Already Liked: {}'.format(already_liked))
+        #self.logger.info('Inappropriate: {}'.format(inap_img))
+        #self.logger.info('Commented: {}'.format(commented))
 
         return followed, total_liked_img, already_liked, inap_img, commented
 
